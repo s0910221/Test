@@ -1,0 +1,33 @@
+<!--<app-test> </app-test>
+<p></p>
+<app-lesson1></app-lesson1>
+<p></p>
+<app-lesson2></app-lesson2>
+<p></p>
+
+<app-lesson3></app-lesson3>-->
+
+<!--<app-lesson4><app-lesson3></app-lesson3></app-lesson4>-->
+<!--<app-lesson5></app-lesson5>-->
+<!--<app-lesson6></app-lesson6>-->
+
+<a href="/lesson1">nor Lesson1</a>
+<a [routerLink]="['/lesson1']" >Lesson1</a>
+<a [routerLink]="['/lesson2']" >Lesson2</a>
+<a [routerLink]="['/lesson3']" >Lesson3</a>
+<a [routerLink]="['/lesson4']" >Lesson4</a>
+<a [routerLink]="['/lesson5']" >Lesson5</a>
+<a [routerLink]="['/lesson6']" >Lesson6</a>
+
+<!--<div *ngFor="var pg=1;i<7;++i ">
+    <a [routerLink]="['/lesson'+pg]" >Lesson{{pg}}</a>
+</div>-->
+
+<br>
+<br>
+<br>
+
+<router-outlet></router-outlet>
+<!--<div *ngFor="let page of 1...6">
+    <a [routerLink]="['/lesson1']" >Lesson1</a>
+</div>-->
